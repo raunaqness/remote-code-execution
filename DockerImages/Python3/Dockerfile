@@ -1,4 +1,4 @@
-FROM python:3.5-slim-stretch
+FROM python:3.8-alpine
 
 ADD start.sh /start.sh
 RUN chmod +x start.sh
